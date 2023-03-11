@@ -6,7 +6,8 @@ var projects ={
             "category": [
                 "iot",
                 "devops",
-                "cloud"
+                "cloud",
+                "hardware"
             ],
             "link": "https://github.com/enzomar/pollicino"
         },
