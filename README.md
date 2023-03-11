@@ -1,6 +1,6 @@
 ### Portfolio
 
-# How to update the proects status and generate a new portfolio
+# How generate a new portfolio
 
 ## Nominal path
 
@@ -11,12 +11,11 @@
 3. Commit and push the changes
 
 ```bash 
-git commit -am'update' 
-git push
+git commit -am'update' && git push
 ```
 
 
-## Try in local 
+## Developer path 
 
 1. Clone this repository
 
@@ -30,7 +29,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 python3 generate.py
 ```
-4. Open the index.html
+4. Open the index.html and verify
 
 5. Commit and push the changes
 
