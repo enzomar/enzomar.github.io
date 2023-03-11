@@ -30,9 +30,12 @@
   </p>
   <hr> -->
 
+  <div id="filter" class="btn-group">
+  </div>
+
   <div class="container">
 
-    <div class="row flex-row flex-sm-nowrap py-3">
+    <div id="projects" class="row flex-row flex-sm-nowrap py-3">
       
       <div id="idea" class="border-right col-sm-6 col-md-4 col-xl-3"> <!-- Idea -->
         <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>
@@ -61,9 +64,41 @@
 <script src="projects.js"></script>
 <script>
 
-function render(filter=['*']){
+function show_filter(){
+  var category_dict = {}; 
+  var selectors = [];
+  $.each(projects, function(name, status) {
+    $.each(status, function(i, item) {
+      $.each(item.category, function(i, cat) {
+        category_dict[cat]++;        
+      });
+    }); 
+  });
 
-  console.log(filter)
+  for (var key in category_dict) {
+        if (category_dict.hasOwnProperty(key)) {
+          selectors.push(key)
+        }
+
+  };
+
+  $('#filter').empty()
+
+  selectors.push('all');
+  $.each(selectors.sort(), function(name, cat) {
+    $('#filter').append('<input type="radio" class="btn-check" name="options" id="'+cat+'" autocomplete="off" />');
+    $('#filter').append('<label class="btn btn-secondary" for="'+cat+'">'+cat+'</label>');
+  });
+
+};
+
+function render(filter=['all']){
+
+  $('#idea').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>');
+  $('#in_progress').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">In Progress</h6>');
+  $('#almost_done').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Almost Done</h6>');
+  $('#done').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Done</h6>');
+
   $.each(projects, function(name, status) {
 
     $.each(status, function(i, item) {
@@ -86,7 +121,7 @@ function render(filter=['*']){
       var display = false;
 
       $.each(item.category.sort(), function(i, cat) {
-        if (filter.includes('*')) { display = true; }; 
+        if (filter.includes('all')) { display = true; }; 
         if (filter.includes(cat)) { display = true; }; 
 
         var badge = $("<div>", {"class": "badge rounded-pill text-bg-light"});
@@ -94,8 +129,6 @@ function render(filter=['*']){
         card_body.append(badge);
 
       });
-
-      console.log(display);
       if (display){
         card.html(card_body);
         if (name == 'idea'){ $('#idea').append(card); };
@@ -107,7 +140,15 @@ function render(filter=['*']){
   });
 };
 
+show_filter();
 render();
+
+
+$('#filter input').click(function(event) {
+    render(event.target.id);
+    // TODO: insert whatever you want to do with $(this) here
+});
+
 
 
 </script>
