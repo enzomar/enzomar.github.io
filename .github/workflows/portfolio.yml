@@ -1,4 +1,4 @@
-name: Generate portfolio
+name: generate portfolio
 
 on: [push]
 
@@ -21,8 +21,15 @@ jobs:
     - name: Generate portfolio
       run: |
         python generate.py
-    - name: Upload Artifacts
-      uses: actions/upload-artifact@v2
+        
+    - name: Commit files  # transfer the new html files back into the repository
+      run: |
+          git config --local user.name  ${{ github.actor }}
+          git add index.html
+          git commit -m "Updating index.html"
+    - name: Push changes  # push the output folder to your repo
+      uses: ad-m/github-push-action@master
       with:
-        name: index.html
-        path: index.html
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+          
