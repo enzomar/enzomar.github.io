@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +26,7 @@
     <div class="row flex-row flex-sm-nowrap py-3">
       
       <div id="idea" class="col-sm-6 col-md-4 col-xl-3"> <!-- Idea -->
-      	<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>
+        <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>
       </div>
 
       <div id="in_progress" class="col-sm-6 col-md-4 col-xl-3"> 
@@ -75,7 +76,7 @@ function render(filter=['*']){
 
       var display = false;
 
-      $.each(item.category, function(i, cat) {
+      $.each(item.category.sort(), function(i, cat) {
         if (filter.includes('*')) { display = true; }; 
         if (filter.includes(cat)) { display = true; }; 
 
