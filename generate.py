@@ -7,6 +7,9 @@ from datetime import datetime
 current_directory = os.path.dirname(os.path.abspath(__file__))
 env = Environment(loader=FileSystemLoader(current_directory))
 
+STATUS = ['idea', 'in_progress', 'almost_done', 'done']
+CATEGORIES = ['backend', 'frontend', 'db', 'devops', 'iot', 'hardware', 'bestpractices', 'cloud']
+
 def load_projects():
     projects = {}
     with open("projects.csv", "r") as infile:  
@@ -29,7 +32,7 @@ def load_projects():
                 "category":category, 
                 "link":link })
 
-    projects['date'] = datetime.now().isoformat("#")
+    projects['date'] = datetime.now().isoformat("T")
 
     return projects
 
@@ -49,6 +52,7 @@ def run(template_name, projects):
 
 if __name__ == "__main__":
     projects = load_projects()
+    print(projects)
     
     run('template.j2', projects)
 

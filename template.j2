@@ -38,7 +38,11 @@
     <div class="card-body">
       <h5 class="card-title">{{ item.title }}</h5>
       <p class="card-text">{{ item.description }}</p>
-      <a href="{{ item.link }}" target="_blank" class="btn btn-primary">Source code</a>
+      <a href="{{ item.link }}" target="_blank" class="btn btn-primary btn-sm">Source code</a>
+            <br/>
+      {% for cat in item.category %}
+        <span class="badge rounded-pill text-bg-light"> {{ cat }} </span>
+      {% endfor %}
     </div>
   </div>
   {% endfor %}
@@ -58,8 +62,13 @@
     <div class="card-body">
       <h5 class="card-title">{{ item.title }}</h5>
       <p class="card-text">{{ item.description }}</p>
-      <a href="{{ item.link }}" target="_blank" class="btn btn-primary">Source code</a>
+      <a href="{{ item.link }}" target="_blank" class="btn btn-primary btn-sm">Source code</a>
+      <br/>
+      {% for cat in item.category %}
+        <span class="badge rounded-pill text-bg-light"> {{ cat }} </span>
+      {% endfor %}
     </div>
+
   </div>
   {% endfor %}
 
@@ -78,7 +87,11 @@
     <div class="card-body">
       <h5 class="card-title">{{ item.title }}</h5>
       <p class="card-text">{{ item.description }}</p>
-      <a href="{{ item.link }}" target="_blank" class="btn btn-primary">Source code</a>
+      <a href="{{ item.link }}" target="_blank" class="btn btn-primary btn-sm">Source code</a>
+            <br/>
+      {% for cat in item.category %}
+        <span class="badge rounded-pill text-bg-light"> {{ cat }} </span>
+      {% endfor %}
     </div>
   </div>
   {% endfor %}
@@ -98,7 +111,11 @@
     <div class="card-body">
       <h5 class="card-title">{{ item.title }}</h5>
       <p class="card-text">{{ item.description }}</p>
-      <a href="{{ item.link }}" target="_blank" class="btn btn-primary">Source code</a>
+      <a href="{{ item.link }}" target="_blank" class="btn btn-primary btn-sm">Source code</a>
+            <br/>
+      {% for cat in item.category %}
+        <span class="badge rounded-pill text-bg-light"> {{ cat }} </span>
+      {% endfor %}
     </div>
   </div>
   {% endfor %}
