@@ -2,7 +2,7 @@
 
 # How to update the proects status and generate a new portfolio
 
-1. Open and update the ```project.csv```
+1. Open and update the ```projects.csv```
 
 
 2. Generate the new portfolio
