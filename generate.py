@@ -29,7 +29,7 @@ def load_projects():
                 "category":category, 
                 "link":link })
 
-    projects['date'] = datetime.now().strftime("%Y-%d-%m")
+    projects['date'] = datetime.now().isoformat("#")
 
     return projects
 
