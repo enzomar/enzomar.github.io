@@ -65,30 +65,34 @@
 <script>
 
 function show_filter(){
-  var category_dict = {}; 
+  var category_dict = {};
+  category_dict['all'] = 0 
   var selectors = [];
   $.each(projects, function(name, status) {
     $.each(status, function(i, item) {
+      category_dict['all'] = category_dict['all'] + 1;
       $.each(item.category, function(i, cat) {
-        category_dict[cat]++;        
+        category_dict[cat] = (category_dict[cat] || 0) + 1;
       });
     }); 
   });
 
   for (var key in category_dict) {
-        if (category_dict.hasOwnProperty(key)) {
-          selectors.push(key)
-        }
+    if (category_dict.hasOwnProperty(key)) {
+      selectors.push(key)
+    }
 
   };
 
   $('#filter').empty()
 
-  selectors.push('all');
   $.each(selectors.sort(), function(name, cat) {
-    $('#filter').append('<input type="radio" class="btn-check" name="options" id="'+cat+'" autocomplete="off" />');
-    $('#filter').append('<label class="btn btn-secondary" for="'+cat+'">'+cat+'</label>');
+    $('#filter').append('<input type="radio" class="btn-check" name="options" id="'+cat+'" autocomplete="off"/>');
+    $('#filter').append('<label class="btn btn-primary-light btn-sm" for="'+cat+'">'+cat+' ('+ category_dict[cat]+')</label>');
   });
+
+  $('#all').prop('checked', true);
+
 
 };
 
@@ -140,6 +144,7 @@ function render(filter=['all']){
   });
 };
 
+
 show_filter();
 render();
 
@@ -148,6 +153,9 @@ $('#filter input').click(function(event) {
     render(event.target.id);
     // TODO: insert whatever you want to do with $(this) here
 });
+
+
+
 
 
 
