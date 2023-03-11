@@ -35,6 +35,5 @@ python3 generate.py
 5. Commit and push the changes
 
 ```bash 
-git commit -am'update' 
-git push
+git commit -am'update' && git push
 ```
