@@ -21,3 +21,8 @@ jobs:
     - name: Generate portfolio
       run: |
         python generate.py
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: index.html
+        path: index.html
