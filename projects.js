@@ -10,16 +10,6 @@ var projects ={
                 "hardware"
             ],
             "link": "https://github.com/enzomar/pollicino"
-        },
-        {
-            "title": "CQRS",
-            "description": "CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture",
-            "category": [
-                "backend",
-                "devops",
-                "cloud"
-            ],
-            "link": "https://github.com/enzomar/cqrs"
         }
     ],
     "done": [
@@ -60,6 +50,16 @@ var projects ={
                 "backend"
             ],
             "link": "https://github.com/enzomar/Polly"
+        },
+        {
+            "title": "CQRS",
+            "description": "CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture",
+            "category": [
+                "backend",
+                "devops",
+                "cloud"
+            ],
+            "link": "https://github.com/enzomar/cqrs"
         }
     ]
 }
