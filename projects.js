@@ -91,7 +91,7 @@ var projects ={
             "category": [
                 "frontend"
             ],
-            "link": "http://http://www.a-pignara.it/"
+            "link": "http://www.a-pignara.it/"
         }
     ],
     "almost_done": [
