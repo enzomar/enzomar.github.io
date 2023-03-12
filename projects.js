@@ -18,7 +18,8 @@ var projects ={
             "size": "L",
             "category": [
                 "frontend",
-                "backend"
+                "backend",
+                "database"
             ],
             "link": "https://github.com/enzomar/mrbadgeapp"
         },
@@ -30,7 +31,8 @@ var projects ={
                 "backend",
                 "frontend",
                 "cloud",
-                "devops"
+                "devops",
+                "database"
             ],
             "link": ""
         }
@@ -63,7 +65,8 @@ var projects ={
             "category": [
                 "backend",
                 "devops",
-                "cloud"
+                "cloud",
+                "database"
             ],
             "link": "https://github.com/enzomar/omb"
         },
@@ -132,7 +135,8 @@ var projects ={
             "description": "Small moking server. It acts as a proxy / caching. It is able to capture live traffic an replaying it afterwards.",
             "size": "M",
             "category": [
-                "backend"
+                "backend",
+                "database"
             ],
             "link": "https://github.com/enzomar/Polly"
         },
@@ -143,7 +147,8 @@ var projects ={
             "category": [
                 "backend",
                 "devops",
-                "cloud"
+                "cloud",
+                "database"
             ],
             "link": "https://github.com/enzomar/cqrs"
         },
