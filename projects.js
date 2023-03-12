@@ -2,7 +2,7 @@ var projects ={
     "in_progress": [
         {
             "title": "Pollicino",
-            "description": "IOT project to automatize plants and garden caring.",
+            "description": "IOT project to automatize plants and garden caring. RasbperryPi powered!",
             "size": "XL",
             "category": [
                 "iot",
@@ -31,6 +31,18 @@ var projects ={
                 "backend",
                 "frontend",
                 "cloud",
+                "devops",
+                "database"
+            ],
+            "link": ""
+        },
+        {
+            "title": "Frullino",
+            "description": "What to cook with your fridge leftover? I create different versions of the same mobile app: Iphone Native, Anroid native, PhoenGap, Ionic and finally PWA. For the backend I used PHP and Python",
+            "size": "L",
+            "category": [
+                "backend",
+                "frontend",
                 "devops",
                 "database"
             ],
