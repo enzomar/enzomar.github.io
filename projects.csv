@@ -5,3 +5,6 @@ Polly, Small moking server. It acts as a proxy / caching. It is able to capture 
 Seamold, My Cookiecutter template for python, done, devops , https://github.com/enzomar/seamold
 OMB, One Machine Band: The following repository contians a set of scripts and a tree structure to host a development; acceptance and production environment based on docker for web developments. The Production phase is capable of blue-green deploy, done, backend-devops-cloud , https://github.com/enzomar/omb
 CQRS, CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture , almost_done, backend-devops-cloud, https://github.com/enzomar/cqrs
+webtool, Cookiecutter template for python / flask / bootstrap / deta, done, devops, https://github.com/enzomar/webtool
+mrbadgeapp, virtual badge prototype built with react native, in_progress, frontend-backend, https://github.com/enzomar/mrbadgeapp
+docker2uml, generate diagram from docker compose, done, devops, https://github.com/enzomar/docker2uml

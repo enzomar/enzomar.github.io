@@ -10,6 +10,15 @@ var projects ={
                 "hardware"
             ],
             "link": "https://github.com/enzomar/pollicino"
+        },
+        {
+            "title": "mrbadgeapp",
+            "description": "virtual badge prototype built with react native",
+            "category": [
+                "frontend",
+                "backend"
+            ],
+            "link": "https://github.com/enzomar/mrbadgeapp"
         }
     ],
     "done": [
@@ -40,6 +49,22 @@ var projects ={
                 "cloud"
             ],
             "link": "https://github.com/enzomar/omb"
+        },
+        {
+            "title": "webtool",
+            "description": "Cookiecutter template for python / flask / bootstrap / deta",
+            "category": [
+                "devops"
+            ],
+            "link": "https://github.com/enzomar/webtool"
+        },
+        {
+            "title": "docker2uml",
+            "description": "generate diagram from docker compose",
+            "category": [
+                "devops"
+            ],
+            "link": "https://github.com/enzomar/docker2uml"
         }
     ],
     "almost_done": [
