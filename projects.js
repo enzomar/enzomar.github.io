@@ -84,6 +84,14 @@ var projects ={
                 "devops"
             ],
             "link": "https://github.com/enzomar/api2uml"
+        },
+        {
+            "title": "a-pignara",
+            "description": "Single Web Page for italian agriturismo",
+            "category": [
+                "frontend"
+            ],
+            "link": "http://http://www.a-pignara.it/"
         }
     ],
     "almost_done": [
