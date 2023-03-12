@@ -21,9 +21,10 @@
     </div>
   </div>
 
-  <p class="bg-light-subtle p-3 rounded">
-    Dear reader, on this page, I share with you some of the side-project I carried out till now. I made them as a hobby or because I wanted to learn new technology. <br/>Feel free to browse or contribute. 
+  <p class="bg-light-subtle pb-3 rounded quote">
+   Dear visitor, on this page, I share with you some of the IT side-projects I carried out till now. I made them as a hobby or because I wanted to learn new technology. <br/>Feel free to browse or contribute.
   </p>
+
 
   <div id="filter" class="btn-group bg-light">
 
@@ -31,29 +32,32 @@
 
   <div class="container">
 
-    <div id="projects" class="row flex-row flex-sm-nowrap py-3">
+    <div id="projects" class="row flex-row flex-sm-nowrap py-3 mb-1">
       
-      <div id="idea" class="shadow-sm col-sm-6 col-md-4 col-xl-3"> <!-- Idea -->
-        <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>
+      <div id="idea" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col1bg py-2">
       </div>
 
-      <div id="in_progress" class="shadow-sm col-sm-6 col-md-4 col-xl-3"> 
-        <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">In Progress</h6>
+      <div id="in_progress" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col2bg py-2"> 
       </div>
       
-      <div id="almost_done" class="shadow-sm col-sm-6 col-md-4 col-xl-3"> 
-        <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Almost Done</h6>
+      <div id="almost_done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col3bg py-2"> 
       </div>
       
-      <div id="done" class="shadow-sm col-sm-6 col-md-4 col-xl-3"> 
-        <h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Done</h6>
+      <div id="done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col4bg py-2"> 
       </div>
     
     </div> <!-- row -->
   </div> <!-- container -->
 
-</main>
 
+
+
+</main>
+<div class="footer">
+  Made with <img src="assets/images/heart.png" width="16" height="16"/>. No free nor commercial template have been harmed in the making of this page. VM
+  <script>eval(unescape("%72%65%73%79%71%32%35%3d%5b%27%25%36%35%25%36%65%25%37%61%25%36%66%25%32%65%25%36%64%25%36%31%25%37%32%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%36%37%25%36%64%25%36%31%25%36%39%25%36%63%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6c%67%7a%74%76%34%31%3d%27%43%6f%6e%74%61%63%74%20%6d%65%27%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6c%67%7a%74%76%34%31%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%72%65%73%79%71%32%35%29%29%3b"));</script>
+
+</div>
 
 </body>
 
@@ -94,10 +98,10 @@ function show_filter(){
 
 function render(filter=['all']){
 
-  $('#idea').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Idea</h6>');
-  $('#in_progress').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">In Progress</h6>');
-  $('#almost_done').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Almost Done</h6>');
-  $('#done').html('<h6 class="card-title text-uppercase text-truncate py-2 text-secondary">Done</h6>');
+  $('#idea').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Idea</h6>');
+  $('#in_progress').html('<h6 class="card-title text-uppercase text-truncate py-2 ">In Progress</h6>');
+  $('#almost_done').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Almost Done</h6>');
+  $('#done').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Done</h6>');
 
   $.each(projects, function(name, status) {
 
@@ -113,7 +117,7 @@ function render(filter=['all']){
       var link = $("<a>", {"class": "btn btn-primary btn-sm"});
       link.attr("href", item.link);
       link.attr("target", "_blank");
-      link.text("Source code");
+      link.text("Browse");
       card_body.append(link);
       var br = $("<br/>");
       card_body.append(br);
@@ -138,6 +142,8 @@ function render(filter=['all']){
       };
     });
   });
+  $(".card").hover(function(){ $(this).toggleClass('cn'); });
+
 };
 
 
@@ -150,10 +156,7 @@ $('#filter input').click(function(event) {
     // TODO: insert whatever you want to do with $(this) here
 });
 
-
-
-
-
+$(".btn").hover(function(){ $(this).toggleClass('hh'); });
 
 </script>
 </html>
