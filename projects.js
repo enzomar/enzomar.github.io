@@ -60,7 +60,7 @@ var projects ={
         },
         {
             "title": "OMB",
-            "description": "One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker-compose. Blue-green deployment is included via Traefik",
+            "description": "One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker-compose. Blue-green deployment is included via Traefik.",
             "size": "L",
             "category": [
                 "backend",
