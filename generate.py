@@ -13,17 +13,19 @@ def load_projects():
         # TITLE, DESCRIPTION, STATUS, CATEGORIES, LINK
 
         for row in reader:
-            if len(row) > 4:
+            if len(row) > 5:
                 title = row[0].strip()
                 description = row[1].strip()
-                status = row[2].strip()
-                category = row[3].split('-')
-                link = row[4].strip()
+                size = row[2].strip()
+                status = row[3].strip()
+                category = row[4].split('-')
+                link = row[5].strip()
 
                 if status not in projects:
                     projects[status] = []
                 projects[status].append({"title": title, 
                     "description": description, 
+                    "size": size.upper(),
                     "category":[s.strip() for s in category], 
                     "link":link })
 
