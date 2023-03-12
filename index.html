@@ -1,232 +1,262 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Vincenzo Marafioti</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv='cache-control' content='no-cache'>
-  <meta http-equiv='expires' content='0'>
-  <meta http-equiv='pragma' content='no-cache'>
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="manifest" href="enzomar.webmanifest" />
-  <script src="assets/js/jquery.slim.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-</head>
-<body class="bg-light">
+    <head>
+        <title>Vincenzo Marafioti</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="manifest" href="enzomar.webmanifest" />
+        <script src="assets/js/jquery.slim.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="bg-light">
+        <main role="main" class="container">
+            <div class="jumbotron jumbotron-fluid bg-light">
+                <div class="container">
+                    <h1 class="display-8">Experiments, ideas, tooling, ...</h1>
+                    <p class="lead">by Vincenzo Marafioti</p>
+                </div>
+            </div>
 
-<main role="main" class="container">
-  <div class="jumbotron jumbotron-fluid bg-light">
-    <div class="container">
-      <h1 class="display-8">Experiments, ideas, tooling, ...</h1>
-      <p class="lead">by Vincenzo Marafioti</p>
-    </div>
-  </div>
+            <p class="bg-light-subtle p-3 rounded quote">
+                Dear visitor, on this page, I share with you some of the IT side-projects I carried out till now. I made them as a hobby or because I wanted to learn new technology. <br />
+                Feel free to browse or contribute. <br />
 
-  <p class="bg-light-subtle p-3 rounded quote">
-   Dear visitor, on this page, I share with you some of the IT side-projects I carried out till now. I made them as a hobby or because I wanted to learn new technology. <br/>Feel free to browse or contribute.   <br/>
+                <script>
+                    eval(
+                        unescape(
+                            "%72%65%73%79%71%32%35%3d%5b%27%25%36%35%25%36%65%25%37%61%25%36%66%25%32%65%25%36%64%25%36%31%25%37%32%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%36%37%25%36%64%25%36%31%25%36%39%25%36%63%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6c%67%7a%74%76%34%31%3d%27%43%6f%6e%74%61%63%74%20%6d%65%27%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6c%67%7a%74%76%34%31%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%72%65%73%79%71%32%35%29%29%3b"
+                        )
+                    );
+                </script>
+            </p>
 
-   <script>eval(unescape("%72%65%73%79%71%32%35%3d%5b%27%25%36%35%25%36%65%25%37%61%25%36%66%25%32%65%25%36%64%25%36%31%25%37%32%27%2c%5b%27%25%36%33%25%36%66%25%36%64%27%2c%27%25%36%37%25%36%64%25%36%31%25%36%39%25%36%63%27%5d%2e%72%65%76%65%72%73%65%28%29%2e%6a%6f%69%6e%28%27%2e%27%29%5d%2e%6a%6f%69%6e%28%27%40%27%29%3b%6c%67%7a%74%76%34%31%3d%27%43%6f%6e%74%61%63%74%20%6d%65%27%3b%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%6c%67%7a%74%76%34%31%2e%6c%69%6e%6b%28%27%6d%61%69%27%2b%27%6c%74%6f%3a%27%2b%72%65%73%79%71%32%35%29%29%3b"));</script>
+            <!-- div id="filter" class="btn-group bg-light flex-wrap">
+      </div -->
 
-  </p>
+            <div class="row flex-row flex-sm-nowrap">
+                <div class="col-sm-6 col-md-8 col-xl-8">
+                    <section id="filter" class="btn-group bg-light flex-wrap" />
+                </div>
+                <div class="col-sm-6 col-md-4 col-xl-4 text-end">
+                    <div id="sorting" class="btn-group bg-light">
+                        <input type="radio" class="btn-check" name="sorting_sel" id="title" autocomplete="off" checked />
+                        <label class="btn btn-primary-light btn-sm" for="title">Name</label>
+                        <input type="radio" class="btn-check" name="sorting_sel" id="size" autocomplete="off" />
+                        <label class="btn btn-primary-light btn-sm" for="size">Size</label>
+                    </div>
+                </div>
+            </div>
 
+            <div class="container">
+                <div id="projects" class="row flex-row flex-sm-nowrap py-3 mb-4">
+                    <div id="idea" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col1bg py-2"></div>
+                    <div id="in_progress" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col2bg py-2"></div>
+                    <div id="almost_done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col3bg py-2"></div>
+                    <div id="done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col4bg py-2"></div>
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </main>
+        <div class="footer flex-wrap">Made with <img src="assets/images/heart.png" width="16" height="16" />. VM</div>
+    </body>
 
-<div id="filter" class="btn-group bg-light flex-wrap">
-      </div>
+    <script src="projects.js"></script>
+    <script>
+        function show_filter() {
+            var category_dict = {};
+            category_dict["all"] = 0;
+            var selectors = [];
+            $.each(projects, function (name, status) {
+                $.each(status, function (i, item) {
+                    category_dict["all"] = category_dict["all"] + 1;
+                    $.each(item.category, function (i, cat) {
+                        category_dict[cat] = (category_dict[cat] || 0) + 1;
+                    });
+                });
+            });
 
-  <!-- div class="row flex-row flex-sm-nowrap">
-    <div class="col-sm-8 col-md-8 col-xl-8">
-      <div id="filter" class="btn-group bg-light">
-      </div>
-    </div>
-    <div class="col-sm-4 col-md-4 col-xl-4 text-end">
-      <div id="sorting" class="btn-group bg-light">
+            for (var key in category_dict) {
+                if (category_dict.hasOwnProperty(key)) {
+                    selectors.push(key);
+                }
+            }
 
-        <input type="radio" class="btn-check" name="sorting_sel" id="title" autocomplete="off" checked>
-        <label class="btn btn-primary-light btn-sm" for="title">Name</label>
+            // filters
+            $("#filter").empty();
 
-        <input type="radio" class="btn-check" name="sorting_sel" id="size" autocomplete="off">
-        <label class="btn btn-primary-light btn-sm" for="size">Size</label>
-      </div>
-      </div>
-  </div-->
+            $.each(selectors.sort(), function (name, cat) {
+                $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '" autocomplete="off"/>');
+                $("#filter").append('<label class="btn btn-primary-light btn-sm" for="' + cat + '">' + cat + ' <span class="badge grey">' + category_dict[cat] + "</span></label>");
+            });
 
-  <div class="container">
+            $("#all").prop("checked", true);
+        }
 
-    <div id="projects" class="row flex-row flex-sm-nowrap py-3 mb-4">
-      
-      <div id="idea" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col1bg py-2">
-      </div>
-      <div id="in_progress" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col2bg py-2"> 
-      </div>
-      <div id="almost_done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col3bg py-2"> 
-      </div>
-      <div id="done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col4bg py-2"> 
-      </div>
-    
-    </div> <!-- row -->
-  </div> <!-- container -->
+        function build_catalogue(projects) {
+            var catalogue = {};
+            $.each(projects, function (name, status) {
+                $.each(status, function (i, item) {
+                    catalogue[item.title] = item;
+                });
+            });
+            return catalogue;
+        }
 
+        function sort_by_size(projects) {
+            var index = [];
+            var cluster = {};
+            var order = ["XS", "S", "M", "L", "XL"].reverse();
 
+            $.each(projects, function (key, value) {
+                var size = value["size"];
+                if (!cluster.hasOwnProperty(size)) {
+                    cluster[size] = new Array();
+                }
+                cluster[size].push(value["title"]);
+            });
 
+            $.each(cluster, function (key, value) {
+                value.sort(function (a, b) {
+                    if (a.toLowerCase() < b.toLowerCase()) return -1;
+                    if (a.toLowerCase() > b.toLowerCase()) return 1;
+                    return 0;
+                });
+            });
 
-</main>
-<div class="footer flex-wrap">
-  Made with <img src="assets/images/heart.png" width="16" height="16"/>. VM
-</div>
+            $.each(order, function (key, value) {
+                $.each(cluster[value], function (i, title) {
+                    index.push(title);
+                });
+            });
 
-</body>
+            return index;
+        }
 
-<script src="projects.js"></script>
-<script>
+        function sort_by_title(projects) {
+            var index = [];
 
+            $.each(projects, function (key, value) {
+                index.push(value["title"]); // array of title or size
+            });
+            index.sort(function (a, b) {
+                if (a.toLowerCase() < b.toLowerCase()) return -1;
+                if (a.toLowerCase() > b.toLowerCase()) return 1;
+                return 0;
+            });
 
+            return index;
+        }
 
-function show_filter(){
-  var category_dict = {};
-  category_dict['all'] = 0 
-  var selectors = [];
-  $.each(projects, function(name, status) {
-    $.each(status, function(i, item) {
-      category_dict['all'] = category_dict['all'] + 1;
-      $.each(item.category, function(i, cat) {
-        category_dict[cat] = (category_dict[cat] || 0) + 1;
-      });
-    }); 
-  });
+        function render(filter, sorting) {
+            $("#idea").html('<h6 class="card-title text-uppercase text-truncate py-2 ">Idea</h6>');
+            $("#in_progress").html('<h6 class="card-title text-uppercase text-truncate py-2 ">In Progress</h6>');
+            $("#almost_done").html('<h6 class="card-title text-uppercase text-truncate py-2 ">Almost Done</h6>');
+            $("#done").html('<h6 class="card-title text-uppercase text-truncate py-2 ">Done</h6>');
 
-  for (var key in category_dict) {
-    if (category_dict.hasOwnProperty(key)) {
-      selectors.push(key)
-    }
+            var catalogue = build_catalogue(projects);
 
-  };
+            $.each(projects, function (name, status) {
+                if (sorting == "title") {
+                    index = sort_by_title(status);
+                }
+                if (sorting == "size") {
+                    index = sort_by_size(status);
+                }
 
-  // filters
-  $('#filter').empty()
+                $.each(index, function (i, key) {
+                    var item = catalogue[key];
+                    var card = $("<div>", { class: "card bg-light mt-2" });
+                    var badge = $("<span>", { class: "mybadge" });
+                    badge.text(item.size);
+                    var card_body = $("<div>", { class: "card-body" });
+                    card_body.append(badge);
+                    var title = $("<h5>", { class: "card-title" });
+                    title.text(item.title);
+                    card_body.append(title);
+                    var description = $("<p>", { class: "card-text" });
+                    description.text(item.description);
+                    card_body.append(description);
+                    if (item.link) {
+                        var link = $("<a>", { class: "btn btn-primary btn-sm" });
+                        link.attr("href", item.link);
+                        link.attr("target", "_blank");
+                        link.text("Browse");
+                        card_body.append(link);
+                    }
+                    var br = $("<br/>");
+                    card_body.append(br);
 
-  $.each(selectors.sort(), function(name, cat) {
-    $('#filter').append('<input type="radio" class="btn-check" name="filter_sel" id="'+cat+'" autocomplete="off"/>');
-    $('#filter').append('<label class="btn btn-primary-light btn-sm" for="'+cat+'">'+cat+' <span class="badge grey">'+ category_dict[cat]+'</span></label>');
-  });
+                    var display = false;
 
-  $('#all').prop('checked', true);
+                    $.each(item.category.sort(), function (i, cat) {
+                        if (filter.includes("all")) {
+                            display = true;
+                        }
+                        if (filter.includes(cat)) {
+                            display = true;
+                        }
 
+                        var badge = $("<div>", { class: "badge rounded-pill text-bg-light" });
+                        badge.text(cat);
+                        card_body.append(badge);
+                    });
+                    if (display) {
+                        card.html(card_body);
+                        if (name == "idea") {
+                            $("#idea").append(card);
+                        }
+                        if (name == "in_progress") {
+                            $("#in_progress").append(card);
+                        }
+                        if (name == "almost_done") {
+                            $("#almost_done").append(card);
+                        }
+                        if (name == "done") {
+                            $("#done").append(card);
+                        }
+                    }
+                });
+            });
+            $(".card").hover(function () {
+                $(this).toggleClass("cn");
+            });
+        }
 
-};
+        show_filter();
+        render(["all"], "title");
+        var global_filter = "all";
+        var global_sorting = "title";
 
+        $("#filter input").click(function (event) {
+            global_filter = event.target.id;
+            render(global_filter, global_sorting);
+        });
 
-function build_catalogue(projects){
-  var catalogue = {}
-  $.each(projects, function(name, status) {
-    $.each(status, function(i, item) {
-      catalogue[item.title] = item;
-    });
-  });
-  return catalogue
-};
+        $("#sorting input").click(function (event) {
+            global_sorting = event.target.id;
+            render(global_filter, global_sorting);
+        });
 
-function build_index(status, token){
-  var index = [];
-  $.each(status, function(key, value) {
-      index.push(value[token]);
-  });
-  index.sort(function(a, b) {
-    if (a.toLowerCase() < b.toLowerCase()) return -1;
-    if (a.toLowerCase() > b.toLowerCase()) return 1;
-    return 0;
-  });
-  return index;
-};
+        $(".btn").hover(function () {
+            $(this).toggleClass("hh");
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H55G66LVHY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
-function render(filter, sorting){
-
-  $('#idea').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Idea</h6>');
-  $('#in_progress').html('<h6 class="card-title text-uppercase text-truncate py-2 ">In Progress</h6>');
-  $('#almost_done').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Almost Done</h6>');
-  $('#done').html('<h6 class="card-title text-uppercase text-truncate py-2 ">Done</h6>');
-
-  var catalogue = build_catalogue(projects);
-
-  $.each(projects, function(name, status) {
-    var index = build_index(status, 'title');
-
-    $.each(index, function(i, key) {
-      var item = catalogue[key];
-      var card = $("<div>", {"class": "card bg-light mt-2"});
-
-      var badge = $("<span>", {"class":"mybadge"});
-      badge.text(item.size);
-      var card_body = $("<div>", {"class": "card-body"});
-      card_body.append(badge)
-      var title = $("<h5>", {"class": "card-title"});
-      title.text(item.title);
-      card_body.append(title);
-      var description = $("<p>", {"class": "card-text"});
-      description.text(item.description);
-      card_body.append(description);
-      if (item.link){
-        var link = $("<a>", {"class": "btn btn-primary btn-sm"});
-        link.attr("href", item.link);
-        link.attr("target", "_blank");
-        link.text("Browse");
-        card_body.append(link);
-      }
-      var br = $("<br/>");
-      card_body.append(br);
-
-      var display = false;
-
-      $.each(item.category.sort(), function(i, cat) {
-        if (filter.includes('all')) { display = true; }; 
-        if (filter.includes(cat)) { display = true; }; 
-
-        var badge = $("<div>", {"class": "badge rounded-pill text-bg-light"});
-        badge.text(cat);
-        card_body.append(badge);
-
-      });
-      if (display){
-        card.html(card_body);
-        if (name == 'idea'){ $('#idea').append(card); };
-        if (name == 'in_progress'){ $('#in_progress').append(card); };
-        if (name == 'almost_done'){ $('#almost_done').append(card); };
-        if (name == 'done'){ $('#done').append(card); };
-      };
-    });
-  });
-  $(".card").hover(function(){ $(this).toggleClass('cn'); });
-
-};
-
-show_filter();
-render(['all'],'title');
-
-$('#filter input').click(function(event) {
-    render(event.target.id, "dummt");
-});
-
-
-$('#sorting input').click(function(event) {
-    var filter = document.querySelector('input[name="filter_sel"]:checked').value
-    render(filter, event.target.id);
-});
-
-
-
-
-$(".btn").hover(function(){ $(this).toggleClass('hh'); });
-
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H55G66LVHY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H55G66LVHY');
-</script>
+        gtag("config", "G-H55G66LVHY");
+    </script>
 </html>
