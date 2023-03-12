@@ -15,4 +15,4 @@ api2uml, Dockerized app to draw UML diagram from your swagger. Deployed on Deta.
 a-pignara, Single Web Page for italian agriturismo., m, done, frontend, http://www.a-pignara.it/
 Inspectphoto, "Web app to inspect photo. It extracts palette, gps position, ... Deployed on Deta", s, done, frontend-backend, https://github.com/enzomar/inspectphoto
 Fleeo, "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).", xl, in_progress, backend-frontend-cloud-devops-database,
-Frullino, "What to cook with your fridge leftover? I create different versions of the same mobile app: Iphone Native, Anroid native, PhoenGap, Ionic and finally PWA. For the backend I used PHP and Python",l,in_progress,backend-frontend-devops-database,
+Frullino, "What to cook with your fridge leftover? I create different versions of the same mobile app: Iphone Native, Anroid native, PhoenGap, Ionic and finally PWA. For the backend I used PHP and Python.",l,in_progress,backend-frontend-devops-database,
