@@ -42,7 +42,7 @@ var projects ={
         },
         {
             "title": "OMB",
-            "description": "One Machine Band: The following repository contians a set of scripts and a tree structure to host a development; acceptance and production environment based on docker for web developments. Blue-green deployment.",
+            "description": "One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker-compose. Blue-green deployment is included via Traefik",
             "category": [
                 "backend",
                 "devops",
