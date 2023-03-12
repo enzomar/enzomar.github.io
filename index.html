@@ -114,11 +114,13 @@ function render(filter=['all']){
       var description = $("<p>", {"class": "card-text"});
       description.text(item.description);
       card_body.append(description);
-      var link = $("<a>", {"class": "btn btn-primary btn-sm"});
-      link.attr("href", item.link);
-      link.attr("target", "_blank");
-      link.text("Browse");
-      card_body.append(link);
+      if (item.link){
+        var link = $("<a>", {"class": "btn btn-primary btn-sm"});
+        link.attr("href", item.link);
+        link.attr("target", "_blank");
+        link.text("Browse");
+        card_body.append(link);
+      }
       var br = $("<br/>");
       card_body.append(br);
 

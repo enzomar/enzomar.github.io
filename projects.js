@@ -2,7 +2,7 @@ var projects ={
     "in_progress": [
         {
             "title": "pollicino",
-            "description": "The goal of the project is indeed to provide a way to automatize plants and garden caring and probably more",
+            "description": "IOT project to automatize plants and garden caring.",
             "category": [
                 "iot",
                 "devops",
@@ -13,7 +13,7 @@ var projects ={
         },
         {
             "title": "mrbadgeapp",
-            "description": "virtual badge prototype built with react native",
+            "description": "Virtual badge prototype built with react native.",
             "category": [
                 "frontend",
                 "backend"
@@ -34,7 +34,7 @@ var projects ={
         },
         {
             "title": "Seamold",
-            "description": "My Cookiecutter template for python",
+            "description": "My Cookiecutter template for python.",
             "category": [
                 "devops"
             ],
@@ -42,7 +42,7 @@ var projects ={
         },
         {
             "title": "OMB",
-            "description": "One Machine Band: The following repository contians a set of scripts and a tree structure to host a development; acceptance and production environment based on docker for web developments. The Production phase is capable of blue-green deploy",
+            "description": "One Machine Band: The following repository contians a set of scripts and a tree structure to host a development; acceptance and production environment based on docker for web developments. Blue-green deployment.",
             "category": [
                 "backend",
                 "devops",
@@ -52,7 +52,7 @@ var projects ={
         },
         {
             "title": "webtool",
-            "description": "Cookiecutter template for python / flask / bootstrap / deta",
+            "description": "Cookiecutter template for python, flask, bootstrap, deta.sh.",
             "category": [
                 "devops"
             ],
@@ -60,11 +60,30 @@ var projects ={
         },
         {
             "title": "docker2uml",
-            "description": "generate diagram from docker compose",
+            "description": "Generate diagram from docker compose.",
             "category": [
                 "devops"
             ],
-            "link": "https://github.com/enzomar/docker2uml"
+            "link": ""
+        },
+        {
+            "title": "duckhunt",
+            "description": "Custom type checker for python.",
+            "category": [
+                "backend"
+            ],
+            "link": ""
+        },
+        {
+            "title": "api2uml",
+            "description": "Dockerized app to draw UML diagram from your swagger.",
+            "category": [
+                "backend",
+                "frontend",
+                "cloud",
+                "devops"
+            ],
+            "link": "https://github.com/enzomar/api2uml"
         }
     ],
     "almost_done": [
@@ -78,13 +97,31 @@ var projects ={
         },
         {
             "title": "CQRS",
-            "description": "CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture",
+            "description": "CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture.",
             "category": [
                 "backend",
                 "devops",
                 "cloud"
             ],
             "link": "https://github.com/enzomar/cqrs"
+        },
+        {
+            "title": "tenguru",
+            "description": "Templatize invoices as a guru.",
+            "category": [
+                "backend"
+            ],
+            "link": ""
+        }
+    ],
+    "idea": [
+        {
+            "title": "linea",
+            "description": "Sync across strava, garmin and polar.",
+            "category": [
+                "backend"
+            ],
+            "link": ""
         }
     ]
 }
