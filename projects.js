@@ -138,7 +138,7 @@ var projects ={
         },
         {
             "title": "CQRS",
-            "description": "CQRS playground simulator; using docker compose of the main the standard building blocks of a CQRS architecture.",
+            "description": "CQRS playground simulator: using docker compose to setup an infra with the main the standard building blocks of a CQRS architecture.",
             "size": "M",
             "category": [
                 "backend",
