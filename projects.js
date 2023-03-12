@@ -1,7 +1,7 @@
 var projects ={
     "in_progress": [
         {
-            "title": "pollicino",
+            "title": "Pollicino",
             "description": "IOT project to automatize plants and garden caring.",
             "size": "XL",
             "category": [
@@ -13,7 +13,7 @@ var projects ={
             "link": "https://github.com/enzomar/pollicino"
         },
         {
-            "title": "mrbadgeapp",
+            "title": "MrBadge",
             "description": "Virtual badge prototype built with react native.",
             "size": "L",
             "category": [
@@ -21,6 +21,18 @@ var projects ={
                 "backend"
             ],
             "link": "https://github.com/enzomar/mrbadgeapp"
+        },
+        {
+            "title": "Fleeo",
+            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).",
+            "size": "XL",
+            "category": [
+                "backend",
+                "frontend",
+                "cloud",
+                "devops"
+            ],
+            "link": ""
         }
     ],
     "done": [
@@ -74,7 +86,7 @@ var projects ={
             "link": ""
         },
         {
-            "title": "duckhunt",
+            "title": "Duckhunt",
             "description": "Custom type checker for python.",
             "size": "S",
             "category": [
@@ -104,13 +116,14 @@ var projects ={
             "link": "http://www.a-pignara.it/"
         },
         {
-            "title": "inspectphoto",
+            "title": "Inspectphoto",
             "description": "Web app to inspect photo. It extracts palette, gps position, ... Deployed on Deta",
             "size": "S",
             "category": [
-                "frontend"
+                "frontend",
+                "backend"
             ],
-            "link": "backend"
+            "link": "https://github.com/enzomar/inspectphoto"
         }
     ],
     "almost_done": [
@@ -135,7 +148,7 @@ var projects ={
             "link": "https://github.com/enzomar/cqrs"
         },
         {
-            "title": "tenguru",
+            "title": "Tenguru",
             "description": "Templatize invoices as a guru.",
             "size": "S",
             "category": [
@@ -146,7 +159,7 @@ var projects ={
     ],
     "idea": [
         {
-            "title": "linea",
+            "title": "Linea",
             "description": "Sync across strava, garmin and polar.",
             "size": "S",
             "category": [
