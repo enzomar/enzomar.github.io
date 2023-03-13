@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="manifest" href="enzomar.webmanifest" />
-        <script src="assets/js/jquery.slim.min.js"></script>
+        <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="projects.js"></script>
@@ -74,6 +74,7 @@
 
         console.log(version);
         $("#version").text(version);
+
 
         function show_filter() {
             var category_dict = {};
@@ -213,6 +214,23 @@
                         badge.text(cat);
                         card_body.append(badge);
                     });
+
+                    if ('techno' in item){
+                        var techno = $("<div>", { class: "techno" });
+
+                        $.each(item.techno.sort(), function (i, t) {
+                            var techno_item = $("<span>", { class: "item" });
+                            techno_item.text(t)
+                            techno.append(techno_item);
+                        });
+
+                        if (item.techno.length > 0){
+                            console.log(techno)
+                            card_body.append(techno);
+                        }
+                    };
+
+
                     if (display) {
                         card.html(card_body);
                         if (name == "idea") {
@@ -230,9 +248,18 @@
                     }
                 });
             });
-            $(".card").hover(function () {
-                $(this).toggleClass("cn");
-            });
+            $(".card").hover(
+                function () {
+                    $(this).addClass("cn");
+                    $(this).find('.techno').show('300')
+                },
+
+                function () {
+                    $(this).removeClass("cn");
+                    $(this).find(".techno").hide('100')
+                },
+
+                );
         }
 
         show_filter();

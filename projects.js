@@ -10,7 +10,15 @@ var projects ={
                 "cloud",
                 "hardware"
             ],
-            "link": "https://github.com/enzomar/pollicino"
+            "link": "https://github.com/enzomar/pollicino",
+            "techno": [
+                "Python",
+                "Ansible",
+                "MQTT",
+                "Docker",
+                "DockerCompose",
+                "RapberryPI"
+            ]
         },
         {
             "title": "MrBadge",
@@ -21,7 +29,10 @@ var projects ={
                 "backend",
                 "database"
             ],
-            "link": "https://github.com/enzomar/mrbadgeapp"
+            "link": "https://github.com/enzomar/mrbadgeapp",
+            "techno": [
+                "ReactNative"
+            ]
         },
         {
             "title": "Fleeo",
@@ -34,11 +45,18 @@ var projects ={
                 "devops",
                 "database"
             ],
-            "link": ""
+            "link": "",
+            "techno": [
+                "Svelte",
+                "Python",
+                "Docker",
+                "MySQL",
+                "OpenAPI/Swagger"
+            ]
         },
         {
             "title": "Frullino",
-            "description": "What to cook with your fridge leftover? I create different versions of the same mobile app: Iphone Native, Anroid native, PhoenGap, Ionic and finally PWA. For the backend I used PHP and Python",
+            "description": "What to cook with your fridge leftover? I create different versions of the same mobile app.",
             "size": "L",
             "category": [
                 "backend",
@@ -46,7 +64,16 @@ var projects ={
                 "devops",
                 "database"
             ],
-            "link": ""
+            "link": "",
+            "techno": [
+                "Xcode",
+                "Android",
+                "PhoneGap",
+                "Ionic",
+                "PWA",
+                "PHP",
+                "Python"
+            ]
         }
     ],
     "done": [
@@ -59,7 +86,15 @@ var projects ={
                 "devops",
                 "cloud"
             ],
-            "link": "https://github.com/enzomar/KSELK"
+            "link": "https://github.com/enzomar/KSELK",
+            "techno": [
+                "Docker",
+                "ElasticSearch",
+                "Kibana",
+                "Kafka",
+                "Spark",
+                "Jupiter"
+            ]
         },
         {
             "title": "Seamold",
@@ -68,7 +103,10 @@ var projects ={
             "category": [
                 "devops"
             ],
-            "link": "https://github.com/enzomar/seamold"
+            "link": "https://github.com/enzomar/seamold",
+            "techno": [
+                "Cookiecutter"
+            ]
         },
         {
             "title": "OMB",
@@ -80,7 +118,13 @@ var projects ={
                 "cloud",
                 "database"
             ],
-            "link": "https://github.com/enzomar/omb"
+            "link": "https://github.com/enzomar/omb",
+            "techno": [
+                "Docker",
+                "Bash",
+                "Traefik",
+                "MySQL"
+            ]
         },
         {
             "title": "webtool",
@@ -89,7 +133,10 @@ var projects ={
             "category": [
                 "devops"
             ],
-            "link": "https://github.com/enzomar/webtool"
+            "link": "https://github.com/enzomar/webtool",
+            "techno": [
+                "Cookiecutter"
+            ]
         },
         {
             "title": "docker2uml",
@@ -98,7 +145,12 @@ var projects ={
             "category": [
                 "devops"
             ],
-            "link": ""
+            "link": "",
+            "techno": [
+                "Python",
+                "JQuery",
+                "Deta"
+            ]
         },
         {
             "title": "Duckhunt",
@@ -107,7 +159,10 @@ var projects ={
             "category": [
                 "backend"
             ],
-            "link": ""
+            "link": "",
+            "techno": [
+                "Python"
+            ]
         },
         {
             "title": "api2uml",
@@ -119,7 +174,12 @@ var projects ={
                 "cloud",
                 "devops"
             ],
-            "link": "https://github.com/enzomar/api2uml"
+            "link": "https://github.com/enzomar/api2uml",
+            "techno": [
+                "Pyton",
+                "Jquery",
+                "Deta"
+            ]
         },
         {
             "title": "a-pignara",
@@ -128,7 +188,10 @@ var projects ={
             "category": [
                 "frontend"
             ],
-            "link": "http://www.a-pignara.it/"
+            "link": "http://www.a-pignara.it/",
+            "techno": [
+                "JQuery"
+            ]
         },
         {
             "title": "Inspectphoto",
@@ -138,7 +201,12 @@ var projects ={
                 "frontend",
                 "backend"
             ],
-            "link": "https://github.com/enzomar/inspectphoto"
+            "link": "https://github.com/enzomar/inspectphoto",
+            "techno": [
+                "JQuery",
+                "Python",
+                "Deta"
+            ]
         }
     ],
     "almost_done": [
@@ -150,7 +218,10 @@ var projects ={
                 "backend",
                 "database"
             ],
-            "link": "https://github.com/enzomar/Polly"
+            "link": "https://github.com/enzomar/Polly",
+            "techno": [
+                "Python"
+            ]
         },
         {
             "title": "CQRS",
@@ -162,7 +233,12 @@ var projects ={
                 "cloud",
                 "database"
             ],
-            "link": "https://github.com/enzomar/cqrs"
+            "link": "https://github.com/enzomar/cqrs",
+            "techno": [
+                "Python",
+                "Nginx",
+                "MySQL"
+            ]
         },
         {
             "title": "Tenguru",
@@ -171,7 +247,11 @@ var projects ={
             "category": [
                 "backend"
             ],
-            "link": ""
+            "link": "",
+            "techno": [
+                "Python",
+                "Jinja2"
+            ]
         }
     ],
     "idea": [
@@ -182,7 +262,8 @@ var projects ={
             "category": [
                 "backend"
             ],
-            "link": ""
+            "link": "",
+            "techno": []
         }
     ]
 }

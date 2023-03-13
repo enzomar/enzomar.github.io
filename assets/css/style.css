@@ -6,6 +6,21 @@ body {
   background-size: cover;
 }
 
+.techno{
+  display: none;
+}
+
+.techno .item{
+  border-radius: 20%;
+  font-weight: bold;
+  font-size: 0.65em;
+  background-color: #ffc107;
+  color: #343a40;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+
+}
 
 .footer {
   position: fixed;
