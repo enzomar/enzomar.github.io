@@ -64,7 +64,8 @@
             <!-- container -->
         </main>
         <div id="footer" class="footer flex-wrap">Made with 
-            <img alt="heart" src="assets/images/heart.png" width="16" height="16" />. Version
+            <div class="heart"></div>
+            . Version
             <span id="version"></span> [VM]
         </div>
     </body>
@@ -308,8 +309,6 @@
             $.each(techno, function (k, v) {
                 datapoints.push({name: k, weight: v});
             });
-
-            console.log(datapoints);
 
             Highcharts.chart('chartContainer', {
                 series: [{

@@ -137,3 +137,18 @@ body {
 
 }
 
+.heart{
+  width: 16px;
+  height: 16px;
+  background: url("../images/heart.png") no-repeat;
+  background-size: 16px 16px;
+  display: inline-block;
+}
+
+
+.heart:hover {
+  background: url("../images/heart-red.png") no-repeat;
+  background-size: 16px 16px;
+
+}
+

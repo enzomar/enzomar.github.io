@@ -268,7 +268,7 @@ var projects ={
         },
         {
             "title": "Fleeo",
-            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).",
+            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.",
             "size": "XL",
             "category": [
                 "backend",
