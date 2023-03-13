@@ -52,7 +52,9 @@ var projects ={
                 "Ionic",
                 "PWA",
                 "PHP",
-                "Python"
+                "Python",
+                "MongoDB",
+                "MySQL"
             ]
         }
     ],
