@@ -4,9 +4,6 @@
         <title>Vincenzo Marafioti</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="cache-control" content="no-cache" />
-        <meta http-equiv="expires" content="0" />
-        <meta http-equiv="pragma" content="no-cache" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="manifest" href="enzomar.webmanifest" />
@@ -41,13 +38,13 @@
 
             <div class="row flex-row flex-sm-nowrap">
                 <div class="col-sm-6 col-md-8 col-xl-8">
-                    <section id="filter" class="btn-group bg-light flex-wrap" />
+                    <div id="filter" class="btn-group bg-light flex-wrap" />
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4 text-end">
                     <div id="sorting" class="btn-group bg-light">
-                        <input type="radio" class="btn-check" name="sorting_sel" id="title" autocomplete="off" checked />
+                        <input type="radio" class="btn-check" name="sorting_sel" id="title" checked />
                         <label class="btn btn-primary-light btn-sm" for="title">Name</label>
-                        <input type="radio" class="btn-check" name="sorting_sel" id="size" autocomplete="off" />
+                        <input type="radio" class="btn-check" name="sorting_sel" id="size"/>
                         <label class="btn btn-primary-light btn-sm" for="size">Size</label>
                     </div>
                 </div>
@@ -64,7 +61,7 @@
             </div>
             <!-- container -->
         </main>
-        <div class="footer flex-wrap">Made with <img src="assets/images/heart.png" width="16" height="16" />. VM</div>
+        <div class="footer flex-wrap">Made with <img alt="heart" src="assets/images/heart.png" width="16" height="16" />. VM</div>
     </body>
 
     <script src="projects.js"></script>
@@ -92,7 +89,7 @@
             $("#filter").empty();
 
             $.each(selectors.sort(), function (name, cat) {
-                $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '" autocomplete="off"/>');
+                $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '/>');
                 $("#filter").append('<label class="btn btn-primary-light btn-sm" for="' + cat + '">' + cat + ' <span class="badge grey">' + category_dict[cat] + "</span></label>");
             });
 
