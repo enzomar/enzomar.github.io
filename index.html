@@ -35,8 +35,13 @@
                 </script>        
             </p>
 
-            <!-- div id="filter" class="btn-group bg-light flex-wrap">
-      </div -->
+            <div class="row flex-row flex-sm-nowrap">
+
+
+            <div id="chartContainer" style="height: 280px; width: 100%; margin-bottom: 10px"></div>
+            </div>
+
+
 
             <div class="row flex-row flex-sm-nowrap">
                 <div class="col-sm-6 col-md-8 col-xl-8">
@@ -278,6 +283,49 @@
             $(this).toggleClass("hh");
         });
     </script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+
+            var techno = {};
+            var max_occ = 0;
+            $.each(projects, function (name, status) {
+                $.each(status, function (i, proj) {
+                    $.each(proj.techno, function (k, tec) {
+                        techno[tec] = techno[tec] ? techno[tec] + 1 : 1;
+                        max_occ = Math.max(techno[tec],max_occ);
+                    });
+                });
+            });
+
+            var datapoints = [];
+            $.each(techno, function (k, v) {
+                datapoints.push({name: k, weight: v});
+            });
+
+            console.log(datapoints);
+
+            Highcharts.chart('chartContainer', {
+                series: [{
+                    type: 'wordcloud',
+                    data: datapoints,
+                    name: 'Occurrences',
+                    rotation: {
+                        from: -60,
+                        to: 60,
+                        orientations: 5
+                    },
+                }],
+
+                title: {
+                     text: 'Technology'
+                }
+            });
+        };
+
+    </script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-H55G66LVHY"></script>
     <script>

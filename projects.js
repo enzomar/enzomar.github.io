@@ -16,7 +16,8 @@ var projects ={
                 "Ansible",
                 "MQTT",
                 "Docker",
-                "RasbperryPi"
+                "RasbperryPi",
+                "Bash"
             ]
         },
         {
@@ -54,7 +55,9 @@ var projects ={
                 "Python",
                 "MongoDB",
                 "MySQL",
-                "AngularJS"
+                "AngularJS",
+                "JQuery",
+                "TDD"
             ]
         }
     ],
@@ -107,7 +110,8 @@ var projects ={
                 "Traefik",
                 "MySQL",
                 "Nginx",
-                "DockerCompose"
+                "DockerCompose",
+                "Bash"
             ]
         },
         {
@@ -123,7 +127,7 @@ var projects ={
                 "JQuery",
                 "Flask",
                 "Graphviz",
-                "GUnicorn",
+                "Unicorn",
                 "Deta"
             ]
         },
@@ -152,10 +156,11 @@ var projects ={
             "link": "https://github.com/enzomar/api2uml",
             "techno": [
                 "Docker",
-                "Pyton",
+                "Python",
                 "Jquery",
-                "DetaFlask",
-                "GUnicorn",
+                "Deta",
+                "Flask",
+                "Unicorn",
                 "PlantWeb",
                 "Deta"
             ]
@@ -171,7 +176,8 @@ var projects ={
             "techno": [
                 "JQuery",
                 "SFTP",
-                "GitAction"
+                "GitAction",
+                "Bash"
             ]
         },
         {
@@ -204,7 +210,8 @@ var projects ={
             "techno": [
                 "Python",
                 "FastAPI",
-                "Unicorn"
+                "Unicorn",
+                "Bash"
             ]
         },
         {
@@ -265,7 +272,9 @@ var projects ={
                 "Stripe",
                 "PostMan",
                 "DockerRegistry",
-                "DockerCompose"
+                "DockerCompose",
+                "JQuery",
+                "TDD"
             ]
         }
     ],
