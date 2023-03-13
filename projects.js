@@ -57,7 +57,9 @@ var projects ={
                 "MySQL",
                 "AngularJS",
                 "JQuery",
-                "TDD"
+                "TDD",
+                "Auth2",
+                "SLL"
             ]
         }
     ],
@@ -172,7 +174,7 @@ var projects ={
             "category": [
                 "frontend"
             ],
-            "link": "http://www.a,pignara.it/",
+            "link": "http://www.a-pignara.it/",
             "techno": [
                 "JQuery",
                 "SFTP",
@@ -274,7 +276,10 @@ var projects ={
                 "DockerRegistry",
                 "DockerCompose",
                 "JQuery",
-                "TDD"
+                "TDD",
+                "Keycloak",
+                "Auth2",
+                "SSL"
             ]
         }
     ],
