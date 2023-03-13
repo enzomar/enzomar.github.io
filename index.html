@@ -54,10 +54,10 @@
 
             <div class="container">
                 <div id="projects" class="row flex-row flex-sm-nowrap py-3 mb-4">
-                    <div id="idea" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col1bg py-2"></div>
-                    <div id="in_progress" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col2bg py-2"></div>
-                    <div id="almost_done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col3bg py-2"></div>
-                    <div id="done" class="shadow-sm col-sm-6 col-md-4 col-xl-3 col4bg py-2"></div>
+                    <div id="idea" class="round shadow-sm col-sm-6 col-md-4 col-xl-3 col1bg py-2"></div>
+                    <div id="in_progress" class="round shadow-sm col-sm-6 col-md-4 col-xl-3 col2bg py-2"></div>
+                    <div id="almost_done" class="round shadow-sm col-sm-6 col-md-4 col-xl-3 col3bg py-2"></div>
+                    <div id="done" class="round shadow-sm col-sm-6 col-md-4 col-xl-3 col4bg py-2"></div>
                 </div>
                 <!-- row -->
             </div>
@@ -328,8 +328,10 @@
                  chart: {
                     backgroundColor: 'rgba(0,0,0,0)'
                 },
-                tooltip: false
-
+                tooltip: false,
+                accessibility: {
+                    enabled: false
+                }
             });
         };
 
