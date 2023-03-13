@@ -11,6 +11,7 @@
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="projects.js"></script>
+        <script src="version.js"></script>
 
     </head>
     <body class="bg-light">
@@ -63,10 +64,17 @@
             </div>
             <!-- container -->
         </main>
-        <div class="footer flex-wrap">Made with <img alt="heart" src="assets/images/heart.png" width="16" height="16" />. VM</div>
+        <div id="footer" class="footer flex-wrap">Made with 
+            <img alt="heart" src="assets/images/heart.png" width="16" height="16" />. Version
+            <span id="version"></span> [VM]
+        </div>
     </body>
 
     <script>
+
+        console.log(version);
+        $("#version").text(version);
+
         function show_filter() {
             var category_dict = {};
             category_dict["all"] = 0;
