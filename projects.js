@@ -2,7 +2,7 @@ var projects ={
     "in_progress": [
         {
             "title": "Pollicino",
-            "description": "IOT project to automatize plants and garden caring. RasbperryPi powered!",
+            "description": "IOT project to automatize garden caring.",
             "size": "XL",
             "category": [
                 "iot",
@@ -16,13 +16,12 @@ var projects ={
                 "Ansible",
                 "MQTT",
                 "Docker",
-                "DockerCompose",
                 "RasbperryPi"
             ]
         },
         {
             "title": "MrBadge",
-            "description": "Virtual badge prototype built with react native.",
+            "description": "Mobile application for firtual badge.",
             "size": "L",
             "category": [
                 "frontend",
@@ -54,7 +53,8 @@ var projects ={
                 "PHP",
                 "Python",
                 "MongoDB",
-                "MySQL"
+                "MySQL",
+                "AngularJS"
             ]
         }
     ],
@@ -80,7 +80,7 @@ var projects ={
         },
         {
             "title": "Seamold",
-            "description": "My Cookiecutter template for python.",
+            "description": "Blueprint for python app.",
             "size": "XS",
             "category": [
                 "devops"
@@ -92,7 +92,7 @@ var projects ={
         },
         {
             "title": "OMB",
-            "description": "One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker-compose. Blue-green deployment is included via Traefik.",
+            "description": "One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker,compose. Blue,green deployment is included via Traefik.",
             "size": "L",
             "category": [
                 "backend",
@@ -105,24 +105,14 @@ var projects ={
                 "Docker",
                 "Bash",
                 "Traefik",
-                "MySQL"
-            ]
-        },
-        {
-            "title": "webtool",
-            "description": "Cookiecutter template for python, flask, bootstrap, deta.sh.",
-            "size": "XS",
-            "category": [
-                "devops"
-            ],
-            "link": "https://github.com/enzomar/webtool",
-            "techno": [
-                "Cookiecutter"
+                "MySQL",
+                "Nginx",
+                "DockerCompose"
             ]
         },
         {
             "title": "docker2uml",
-            "description": "Generate diagram from docker compose. Deployed on Deta.",
+            "description": "Generate diagram from docker compose.",
             "size": "S",
             "category": [
                 "devops"
@@ -131,6 +121,9 @@ var projects ={
             "techno": [
                 "Python",
                 "JQuery",
+                "Flask",
+                "Graphviz",
+                "GUnicorn",
                 "Deta"
             ]
         },
@@ -148,7 +141,7 @@ var projects ={
         },
         {
             "title": "api2uml",
-            "description": "Dockerized app to draw UML diagram from your swagger. Deployed on Deta.",
+            "description": "Web App to draw UML diagram from your swagger.",
             "size": "S",
             "category": [
                 "backend",
@@ -158,8 +151,12 @@ var projects ={
             ],
             "link": "https://github.com/enzomar/api2uml",
             "techno": [
+                "Docker",
                 "Pyton",
                 "Jquery",
+                "DetaFlask",
+                "GUnicorn",
+                "PlantWeb",
                 "Deta"
             ]
         },
@@ -170,14 +167,16 @@ var projects ={
             "category": [
                 "frontend"
             ],
-            "link": "http://www.a-pignara.it/",
+            "link": "http://www.a,pignara.it/",
             "techno": [
-                "JQuery"
+                "JQuery",
+                "SFTP",
+                "GitAction"
             ]
         },
         {
             "title": "Inspectphoto",
-            "description": "Web app to inspect photo. It extracts palette, gps position, ... Deployed on Deta",
+            "description": "Web app to inspect photo. It extracts palette, gps position, ...",
             "size": "S",
             "category": [
                 "frontend",
@@ -187,14 +186,15 @@ var projects ={
             "techno": [
                 "JQuery",
                 "Python",
-                "Deta"
+                "Deta",
+                "Flask"
             ]
         }
     ],
     "almost_done": [
         {
             "title": "Polly",
-            "description": "Small mock server. It acts as a proxy / caching. It is able to capture live traffic an replaying it afterwards.",
+            "description": "Mock server. It acts as a proxy and it is able to sniff the traffic and emulate target server.",
             "size": "M",
             "category": [
                 "backend",
@@ -202,7 +202,9 @@ var projects ={
             ],
             "link": "https://github.com/enzomar/Polly",
             "techno": [
-                "Python"
+                "Python",
+                "FastAPI",
+                "Unicorn"
             ]
         },
         {
@@ -217,9 +219,14 @@ var projects ={
             ],
             "link": "https://github.com/enzomar/cqrs",
             "techno": [
+                "Docker",
+                "DockerCompose",
+                "Redis",
+                "MySQL",
+                "Kafka",
+                "MySQL",
                 "Python",
-                "Nginx",
-                "MySQL"
+                "Flask"
             ]
         },
         {
@@ -237,7 +244,7 @@ var projects ={
         },
         {
             "title": "Fleeo",
-            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).",
+            "description": "Fleoo is a pay,per,view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).",
             "size": "XL",
             "category": [
                 "backend",
@@ -252,17 +259,20 @@ var projects ={
                 "Python",
                 "Docker",
                 "MySQL",
-                "OpenAPI/Swagger",
+                "OpenAPI",
                 "Zoom",
                 "GoogleAPI",
-                "Stripe"
+                "Stripe",
+                "PostMan",
+                "DockerRegistry",
+                "DockerCompose"
             ]
         }
     ],
     "idea": [
         {
             "title": "Linea",
-            "description": "Sync across strava, garmin and polar.",
+            "description": "Sync across Strava, Garmin and Polar.",
             "size": "S",
             "category": [
                 "backend"

@@ -7,7 +7,7 @@ STATUS = ['idea', 'in_progress', 'almost_done', 'done']
 def load_projects():
     projects = {}
     with open("projects.csv", "r") as infile:  
-        reader = csv.reader(infile, quotechar='"', delimiter=',',
+        reader = csv.reader(infile, quotechar='"', delimiter=';',
                      quoting=csv.QUOTE_ALL, skipinitialspace=True)
         next(reader, None)  # skip the headers
         # TITLE, DESCRIPTION, STATUS, CATEGORIES, LINK
@@ -18,9 +18,9 @@ def load_projects():
                 description = row[1].strip()
                 size = row[2].strip()
                 status = row[3].strip()
-                category = row[4].split('-')
+                category = row[4].split(',')
                 link = row[5].strip()
-                techno_raw = row[6].strip().split('-')
+                techno_raw = row[6].strip().split(',')
                 techno = []
                 for each in techno_raw:
                     tmp = each.strip()
