@@ -45,7 +45,7 @@ body {
 {
   height: 280px; 
   width: 100%;
-  margin-top: -8px
+  margin-top: -8px;
 }
 
 .selectors
@@ -70,6 +70,17 @@ body {
 }
 
 
+.black{
+  color:  #222222;
+  border: 1px solid #222222;
+}
+
+
+.grey{
+  color: #cccccc;
+  border: 1px solid #dddddd;
+}
+
 .mybadge{
   top:  10px;
   left:  88%;
@@ -78,16 +89,16 @@ body {
   width: 25px;
   background-color: #white;
   border-radius: 50%;
-  border: 1px solid #dddddd;
   display: inline-block;
   text-align:  center;
   font-weight: bold;
   font-size: 0.85em;
   padding-top:  2px;
-  color:  #cccccc;
 }
 
-.grey{
+
+
+.azur{
   color: #0b85f2; !important
 }
 

@@ -98,7 +98,7 @@
 
             $.each(selectors.sort(), function (name, cat) {
                 $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '"/>');
-                $("#filter").append('<label class="btn btn-primary-light btn-sm" for="' + cat + '">' + cat + ' <span class="badge grey">' + category_dict[cat] + "</span></label>");
+                $("#filter").append('<label class="btn btn-primary-light btn-sm" for="' + cat + '">' + cat + ' <span class="badge azur">' + category_dict[cat] + "</span></label>");
             });
 
             $("#all").prop("checked", true);
@@ -178,7 +178,7 @@
                 $.each(index, function (i, key) {
                     var item = catalogue[key];
                     var card = $("<div>", { class: "card bg-light mt-2" });
-                    var badge = $("<span>", { class: "mybadge" });
+                    var badge = $("<span>", { class: "mybadge grey" });
                     badge.text(item.size);
                     var card_body = $("<div>", { class: "card-body" });
                     card_body.append(badge);
@@ -248,15 +248,21 @@
             $(".card").hover(
                 function () {
                     $(this).addClass("cn");
-                    $(this).find('.techno').show('300')
+                    $(this).find('.mybadge').addClass("black");                    
+                    $(this).find('.mybadge').removeClass("grey");
+                    $(this).find('.techno').show('300');
+
                 },
 
                 function () {
                     $(this).removeClass("cn");
-                    $(this).find(".techno").hide('100')
+                    $(this).find('.mybadge').removeClass("black");
+                    $(this).find('.mybadge').addClass("grey");                    
+                    $(this).find(".techno").hide('100');
+
                 },
 
-                );
+            );
         }
 
         show_filter();
@@ -314,8 +320,11 @@
                 }],
 
                 title: {
-                     text: 'Technology'
-                }
+                     text: 'Technologies'
+                },
+                 chart: {
+                    backgroundColor: 'rgba(0,0,0,0)'
+                },
             });
         };
 
