@@ -17,7 +17,7 @@ var projects ={
                 "MQTT",
                 "Docker",
                 "DockerCompose",
-                "RapberryPI"
+                "RasbperryPi"
             ]
         },
         {
