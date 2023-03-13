@@ -22,7 +22,7 @@ var projects ={
         },
         {
             "title": "MrBadge",
-            "description": "Mobile application for firtual badge.",
+            "description": "Mobile application for virtual badge.",
             "size": "L",
             "category": [
                 "frontend",

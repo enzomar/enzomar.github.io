@@ -5,7 +5,7 @@
 "Seamold";"Blueprint for python app.";" xs";"done";"devops ";" https://github.com/enzomar/seamold";"Cookiecutter"
 "OMB";"One Machine Band: set of scripts and a blueprint to host a development  acceptance and production environment based on docker,compose. Blue,green deployment is included via Traefik.";" l";"done";"backend,devops,cloud,database ";" https://github.com/enzomar/omb";"Docker,Bash,Traefik,MySQL,Nginx,DockerCompose,Bash,GitAction"
 "CQRS";"CQRS playground simulator: using docker compose to setup an infra with the main the standard building blocks of a CQRS architecture.";" m";"almost_done";"backend,devops,cloud,database";" https://github.com/enzomar/cqrs";"Docker,DockerCompose,Redis,MySQL,Kafka,MySQL,Python,Flask"
-"MrBadge";"Mobile application for firtual badge.";" l";"in_progress";"frontend,backend,database";" https://github.com/enzomar/mrbadgeapp";"ReactNative,GitAction"
+"MrBadge";"Mobile application for virtual badge.";" l";"in_progress";"frontend,backend,database";" https://github.com/enzomar/mrbadgeapp";"ReactNative,GitAction"
 "docker2uml";"Generate diagram from docker compose.";" s";"done";"devops";"";"Python,JQuery,Flask,Graphviz,Unicorn,Deta"
 "Linea";"Sync across Strava, Garmin and Polar.";" s";"idea";"backend";" ";""
 "Tenguru";"Templatize invoices as a guru.";" s";"almost_done";"backend";" ";"Python,Jinja2"
