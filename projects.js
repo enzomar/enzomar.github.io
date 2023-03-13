@@ -279,7 +279,26 @@ var projects ={
                 "TDD",
                 "Keycloak",
                 "Auth2",
-                "SSL"
+                "SSL",
+                "Vercel"
+            ]
+        },
+        {
+            "title": "Bus4All",
+            "description": "Mobile app to monitor where is the envibus and give alarm on strike.",
+            "size": "M",
+            "category": [
+                "bakend",
+                "frontend",
+                "database"
+            ],
+            "link": "",
+            "techno": [
+                "PhoneGap",
+                "Selenium",
+                "Python",
+                "JQuery",
+                "GoogleAPI"
             ]
         }
     ],
