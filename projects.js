@@ -302,7 +302,7 @@ var projects ={
             "description": "Mobile app to monitor where is the envibus and give alarm on strike.",
             "size": "M",
             "category": [
-                "bakend",
+                "backend",
                 "frontend",
                 "database"
             ],
