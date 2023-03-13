@@ -6,6 +6,11 @@ body {
   background-size: cover;
 }
 
+.contactme{
+  top:  10px;
+  text-aling: right;
+}
+
 .techno{
   display: none;
 }
