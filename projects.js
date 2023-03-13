@@ -164,7 +164,7 @@ var projects ={
         {
             "title": "a-pignara",
             "description": "Single Web Page for italian agriturismo.",
-            "size": "M",
+            "size": "S",
             "category": [
                 "frontend"
             ],
