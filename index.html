@@ -44,9 +44,9 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4 text-end">
                     <div id="sorting" class="btn-group bg-light">
-                        <input type="radio" class="btn-check" name="sorting_sel" id="title"  checked />
+                        <input type="radio" class="btn-check" name="sorting_sel" id="title"  />
                         <label class="btn btn-primary-light btn-sm" for="title">Name</label>
-                        <input type="radio" class="btn-check" name="sorting_sel" id="size" />
+                        <input type="radio" class="btn-check" name="sorting_sel" id="size" checked/>
                         <label class="btn btn-primary-light btn-sm" for="size">Complexity</label>
                     </div>
                 </div>
@@ -260,9 +260,9 @@
         }
 
         show_filter();
-        render(["all"], "title");
+        render(["all"], "size");
         var global_filter = "all";
-        var global_sorting = "title";
+        var global_sorting = "size";
 
         $("#filter input").click(function (event) {
             global_filter = event.target.id;
