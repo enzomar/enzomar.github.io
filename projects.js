@@ -31,7 +31,8 @@ var projects ={
             ],
             "link": "https://github.com/enzomar/mrbadgeapp",
             "techno": [
-                "ReactNative"
+                "ReactNative",
+                "GitAction"
             ]
         },
         {
@@ -113,7 +114,8 @@ var projects ={
                 "MySQL",
                 "Nginx",
                 "DockerCompose",
-                "Bash"
+                "Bash",
+                "GitAction"
             ]
         },
         {
