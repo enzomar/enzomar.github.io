@@ -51,7 +51,10 @@ var projects ={
                 "Python",
                 "Docker",
                 "MySQL",
-                "OpenAPI/Swagger"
+                "OpenAPI/Swagger",
+                "Zoom",
+                "GoogleAPI",
+                "Stripe"
             ]
         },
         {

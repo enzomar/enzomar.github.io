@@ -14,5 +14,5 @@ Duckhunt, Custom type checker for python., s, done, backend,,Python
 api2uml, Dockerized app to draw UML diagram from your swagger. Deployed on Deta., s, done, backend-frontend- cloud-devops, https://github.com/enzomar/api2uml ,Pyton-Jquery-Deta
 a-pignara, Single Web Page for italian agriturismo., m, done, frontend, http://www.a-pignara.it/,JQuery
 Inspectphoto, "Web app to inspect photo. It extracts palette, gps position, ... Deployed on Deta", s, done, frontend-backend, https://github.com/enzomar/inspectphoto,JQuery-Python-Deta
-Fleeo, "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).", xl, in_progress, backend-frontend-cloud-devops-database,,Svelte-Python-Docker-MySQL-OpenAPI/Swagger
+Fleeo, "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solution ( ie. Zoom).", xl, in_progress, backend-frontend-cloud-devops-database,,Svelte-Python-Docker-MySQL-OpenAPI/Swagger-Zoom-GoogleAPI-Stripe
 Frullino, "What to cook with your fridge leftover? I create different versions of the same mobile app.",l,in_progress,backend-frontend-devops-database,,Xcode-Android-PhoneGap-Ionic-PWA-PHP-Python
