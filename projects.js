@@ -32,7 +32,8 @@ var projects ={
             "link": "https://github.com/enzomar/mrbadgeapp",
             "techno": [
                 "ReactNative",
-                "GitAction"
+                "GitAction",
+                "OpenAPI"
             ]
         },
         {
@@ -47,6 +48,7 @@ var projects ={
             ],
             "link": "",
             "techno": [
+                "OpenAPI",
                 "Xcode",
                 "Android",
                 "PhoneGap",
@@ -307,6 +309,7 @@ var projects ={
             ],
             "link": "",
             "techno": [
+                "OpenAPI",
                 "PhoneGap",
                 "Selenium",
                 "Python",
