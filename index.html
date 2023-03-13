@@ -13,9 +13,11 @@
         <script src="assets/js/jquery.slim.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="projects.js"></script>
+
     </head>
     <body class="bg-light">
-        <main role="main" class="container">
+        <main class="container">
             <div class="jumbotron jumbotron-fluid bg-light">
                 <div class="container">
                     <h1 class="display-8">Experiments, ideas, tooling, ...</h1>
@@ -41,11 +43,11 @@
 
             <div class="row flex-row flex-sm-nowrap">
                 <div class="col-sm-6 col-md-8 col-xl-8">
-                    <section id="filter" class="btn-group bg-light flex-wrap" />
+                    <div id="filter" class="btn-group bg-light flex-wrap"></div>
                 </div>
                 <div class="col-sm-6 col-md-4 col-xl-4 text-end">
                     <div id="sorting" class="btn-group bg-light">
-                        <input type="radio" class="btn-check" name="sorting_sel" id="title" autocomplete="off" checked />
+                        <input type="radio" class="btn-check" name="sorting_sel" id="title"  checked />
                         <label class="btn btn-primary-light btn-sm" for="title">Name</label>
                         <input type="radio" class="btn-check" name="sorting_sel" id="size" autocomplete="off" />
                         <label class="btn btn-primary-light btn-sm" for="size">Size</label>
@@ -64,10 +66,9 @@
             </div>
             <!-- container -->
         </main>
-        <div class="footer flex-wrap">Made with <img src="assets/images/heart.png" width="16" height="16" />. VM</div>
+        <div class="footer flex-wrap">Made with <img alt="heart" src="assets/images/heart.png" width="16" height="16" />. VM</div>
     </body>
 
-    <script src="projects.js"></script>
     <script>
         function show_filter() {
             var category_dict = {};
@@ -92,7 +93,7 @@
             $("#filter").empty();
 
             $.each(selectors.sort(), function (name, cat) {
-                $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '" autocomplete="off"/>');
+                $("#filter").append('<input type="radio" class="btn-check" name="filter_sel" id="' + cat + '"/>');
                 $("#filter").append('<label class="btn btn-primary-light btn-sm" for="' + cat + '">' + cat + ' <span class="badge grey">' + category_dict[cat] + "</span></label>");
             });
 
