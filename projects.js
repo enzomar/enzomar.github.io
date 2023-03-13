@@ -194,7 +194,7 @@ var projects ={
     "almost_done": [
         {
             "title": "Polly",
-            "description": "Small moking server. It acts as a proxy / caching. It is able to capture live traffic an replaying it afterwards.",
+            "description": "Small mock server. It acts as a proxy / caching. It is able to capture live traffic an replaying it afterwards.",
             "size": "M",
             "category": [
                 "backend",
