@@ -109,7 +109,6 @@ var projects ={
             "link": "https://github.com/enzomar/omb",
             "techno": [
                 "Docker",
-                "Bash",
                 "Traefik",
                 "MySQL",
                 "Nginx",

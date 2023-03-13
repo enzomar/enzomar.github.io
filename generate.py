@@ -1,8 +1,12 @@
 import os
 import csv
 import json
+import urllib.request
+
 
 STATUS = ['idea', 'in_progress', 'almost_done', 'done']
+
+
 
 def load_projects():
     projects = {}
@@ -39,8 +43,6 @@ def load_projects():
                     })
 
     return projects
-
-
 
 def run(projects):
    

@@ -73,7 +73,6 @@
 
         $("#version").text(version);
 
-
         function show_filter() {
             var category_dict = {};
             category_dict["all"] = 0;
@@ -158,6 +157,8 @@
 
             return index;
         }
+
+
 
         function render(filter, sorting) {
             $("#idea").html('<h6 class="card-title text-uppercase text-truncate py-2 ">Idea</h6>');
@@ -283,6 +284,9 @@
         $(".btn").hover(function () {
             $(this).toggleClass("hh");
         });
+
+
+
     </script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
