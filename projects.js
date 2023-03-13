@@ -197,6 +197,18 @@ var projects ={
                 "Deta",
                 "Flask"
             ]
+        },
+        {
+            "title": "RNote",
+            "description": "Script to generate release note from GIT/HG logs",
+            "size": "S",
+            "category": [
+                "devops"
+            ],
+            "link": "",
+            "techno": [
+                "Python"
+            ]
         }
     ],
     "almost_done": [
