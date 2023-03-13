@@ -59,7 +59,7 @@ var projects ={
                 "JQuery",
                 "TDD",
                 "Auth2",
-                "SLL"
+                "SSL"
             ]
         }
     ],
