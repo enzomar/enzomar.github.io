@@ -22,7 +22,7 @@ var projects ={
         },
         {
             "title": "MrBadge",
-            "description": "Virtual badge on your mobile to check in and check out. It can work via GPS, NFC or manual mode",
+            "description": "Mobile application for virtual badge.",
             "size": "L",
             "category": [
                 "frontend",
@@ -300,7 +300,7 @@ var projects ={
         },
         {
             "title": "Bus4All",
-            "description": "Mobile app that monitor where is the envibus and it raises alarms in case of strikes.",
+            "description": "Mobile app to monitor where is the envibus and give alarm on strike.",
             "size": "M",
             "category": [
                 "backend",
