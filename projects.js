@@ -203,12 +203,12 @@ var projects ={
         },
         {
             "title": "RNote",
-            "description": "Script to generate release note from GIT/HG logs",
+            "description": "Script to generate release note from Git/Hg logs",
             "size": "S",
             "category": [
                 "devops"
             ],
-            "link": "",
+            "link": "https://github.com/enzomar/rnote",
             "techno": [
                 "Python"
             ]
