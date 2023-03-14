@@ -126,7 +126,7 @@ var projects ={
             "category": [
                 "devops"
             ],
-            "link": "",
+            "link": "https://docker2uml-1-e7247500.deta.app/",
             "techno": [
                 "Python",
                 "JQuery",
@@ -158,7 +158,7 @@ var projects ={
                 "cloud",
                 "devops"
             ],
-            "link": "https://github.com/enzomar/api2uml",
+            "link": "https://api2uml-1-e3432129.deta.app/",
             "techno": [
                 "Docker",
                 "Python",
