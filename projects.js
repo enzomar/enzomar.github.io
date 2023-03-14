@@ -193,7 +193,7 @@ var projects ={
                 "frontend",
                 "backend"
             ],
-            "link": "https://github.com/enzomar/inspectphoto",
+            "link": "https://inspectphoto-1-m8050881.deta.app",
             "techno": [
                 "JQuery",
                 "Python",
