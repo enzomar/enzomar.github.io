@@ -6,9 +6,10 @@ body {
   background-size: cover;
 }
 
-.contactme{
-  top:  10px;
-  text-aling: right;
+.social{
+  top:  0px;
+  position: relative;
+  float: right;
 }
 
 .techno{
