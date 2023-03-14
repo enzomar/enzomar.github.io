@@ -5,7 +5,7 @@
 "Seamold";"Blueprint for python app.";" xs";"done";"devops ";" https://github.com/enzomar/seamold";"Cookiecutter"
 "OMB";"One Machine Band: set of scripts and a blueprint to host a development, acceptance and production environment based on docker-compose. Blue-green deployment is included via Traefik.";" l";"done";"backend,devops,cloud,database ";" https://github.com/enzomar/omb";"Docker,Traefik,MySQL,Nginx,DockerCompose,Bash,GitAction"
 "CQRS";"CQRS playground simulator: using docker compose to setup an infra with the main the standard building blocks of a CQRS architecture.";" m";"almost_done";"backend,devops,cloud,database";" https://github.com/enzomar/cqrs";"Docker,DockerCompose,Redis,MySQL,Kafka,MySQL,Python,Flask"
-"MrBadge";"Mobile application for virtual badge.";" l";"in_progress";"frontend,backend,database";" https://github.com/enzomar/mrbadgeapp";"ReactNative,GitAction,OpenAPI"
+"MrBadge";"Virtual badge on your mobile to check in and check out. It can work via GPS, NFC or manual mode";" l";"in_progress";"frontend,backend,database";" https://github.com/enzomar/mrbadgeapp";"ReactNative,GitAction,OpenAPI"
 "docker2uml";"Generate diagram from docker compose.";" s";"done";"devops";"https://docker2uml-1-e7247500.deta.app/";"Python,JQuery,Flask,Graphviz,Unicorn,Deta"
 "Linea";"Sync across Strava, Garmin and Polar.";" s";"idea";"backend";" ";""
 "Tenguru";"Templatize invoices as a guru.";" s";"almost_done";"backend";" ";"Python,Jinja2"
@@ -15,5 +15,5 @@
 "Inspectphoto";"Web app to inspect photo. It extracts palette, gps position, ... ";" s";"done";"frontend,backend";"https://inspectphoto-1-m8050881.deta.app";"JQuery,Python,Deta,Flask"
 "Fleeo";"Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.";" xl";"almost_done";"backend,frontend,cloud,devops,database";"";"Svelte,Python,Docker,MySQL,OpenAPI,Zoom,GoogleAPI,Stripe,PostMan,DockerRegistry,DockerCompose,JQuery,TDD,Keycloak,Auth2,SSL,Vercel"
 "Frullino";"What to cook with your fridge leftover? I create different versions of the same mobile app.";"l";"in_progress";"backend,frontend,devops,database";"";"OpenAPI,Xcode,Android,PhoneGap,Ionic,PWA,PHP,Python,MongoDB,MySQL,AngularJS,JQuery,TDD,Auth2,SSL"
-Bus4All;Mobile app to monitor where is the envibus and give alarm on strike.;m;"almost_done";"backend,frontend,database";"";OpenAPI,PhoneGap,Selenium,Python,JQuery,GoogleAPI
+Bus4All;Mobile app that monitor where is the envibus and it raises alarms in case of strikes.;m;"almost_done";"backend,frontend,database";"";OpenAPI,PhoneGap,Selenium,Python,JQuery,GoogleAPI
 RNote;Script to generate release note from Git/Hg logs;s;done;devops;https://github.com/enzomar/rnote;Python
