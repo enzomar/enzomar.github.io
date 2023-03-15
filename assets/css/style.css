@@ -10,7 +10,34 @@ body {
   top:  0px;
   position: relative;
   float: right;
+  border-radius: 0% 0% 33% 33%;
+  background-color: #00a3bd;
+  height:  40px;
+  padding-top:  6px;
+  -webkit-box-shadow:0 0 4px grey; 
+  -moz-box-shadow: 0 0 4px grey;
+  box-shadow:0 0 4px grey;
+
 }
+
+.social .action {
+  display:  inline;
+  margin-left:  18px;
+  margin-right:  18px;
+  font-weight: bold;
+
+}
+
+.action a {
+  color:  #faf6e9;
+  text-decoration: none;
+}
+
+.action a:hover {
+  color:  lightblue;
+
+}
+
 
 .techno{
   display: none;
