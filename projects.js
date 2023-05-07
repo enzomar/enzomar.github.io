@@ -212,6 +212,19 @@ var projects ={
             "techno": [
                 "Python"
             ]
+        },
+        {
+            "title": "Sonar",
+            "description": "Sample project to run locally SonarQube",
+            "size": "S",
+            "category": [
+                "devops"
+            ],
+            "link": "https://github.com/enzomar/sonar",
+            "techno": [
+                "PHP",
+                "SonarQube"
+            ]
         }
     ],
     "almost_done": [
