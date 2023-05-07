@@ -5,7 +5,7 @@
 1. Update the ```projects.csv```
 2. Transform the csv
 ```bash 
-python generate.py
+python3 generate.py
 ```
 3. Commit and push the changes
 ```bash 

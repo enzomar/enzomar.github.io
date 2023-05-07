@@ -37,6 +37,38 @@ var projects ={
             ]
         },
         {
+            "title": "Fleeo",
+            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.",
+            "size": "XL",
+            "category": [
+                "backend",
+                "frontend",
+                "cloud",
+                "devops",
+                "database"
+            ],
+            "link": "",
+            "techno": [
+                "Svelte",
+                "Python",
+                "Docker",
+                "MySQL",
+                "OpenAPI",
+                "Zoom",
+                "GoogleAPI",
+                "Stripe",
+                "PostMan",
+                "DockerRegistry",
+                "DockerCompose",
+                "JQuery",
+                "TDD",
+                "Keycloak",
+                "Auth2",
+                "SSL",
+                "Vercel"
+            ]
+        },
+        {
             "title": "Frullino",
             "description": "What to cook with your fridge leftover? I create different versions of the same mobile app.",
             "size": "L",
@@ -277,38 +309,6 @@ var projects ={
             "techno": [
                 "Python",
                 "Jinja2"
-            ]
-        },
-        {
-            "title": "Fleeo",
-            "description": "Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.",
-            "size": "XL",
-            "category": [
-                "backend",
-                "frontend",
-                "cloud",
-                "devops",
-                "database"
-            ],
-            "link": "",
-            "techno": [
-                "Svelte",
-                "Python",
-                "Docker",
-                "MySQL",
-                "OpenAPI",
-                "Zoom",
-                "GoogleAPI",
-                "Stripe",
-                "PostMan",
-                "DockerRegistry",
-                "DockerCompose",
-                "JQuery",
-                "TDD",
-                "Keycloak",
-                "Auth2",
-                "SSL",
-                "Vercel"
             ]
         },
         {

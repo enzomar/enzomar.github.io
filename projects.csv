@@ -13,7 +13,7 @@
 "api2uml";"Web App to draw UML diagram from your swagger.";" s";"done";"backend,frontend, cloud,devops";"https://api2uml-1-e3432129.deta.app/";"Docker,Python,Jquery,Deta,Flask,Unicorn,PlantWeb,Deta"
 "a-pignara";"Single Web Page for italian agriturismo.";" s";"done";"frontend";" http://www.a-pignara.it/";"JQuery,SFTP,GitAction,Bash"
 "Inspectphoto";"Web app to inspect photo. It extracts palette, gps position, ... ";" s";"done";"frontend,backend";"https://inspectphoto-1-m8050881.deta.app";"JQuery,Python,Deta,Flask"
-"Fleeo";"Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.";" xl";"almost_done";"backend,frontend,cloud,devops,database";"";"Svelte,Python,Docker,MySQL,OpenAPI,Zoom,GoogleAPI,Stripe,PostMan,DockerRegistry,DockerCompose,JQuery,TDD,Keycloak,Auth2,SSL,Vercel"
+"Fleeo";"Fleoo is a pay-per-view streaming platform that offers to content creator a way to transmit their live show via 3rd parties streaming solutions.";" xl";"in_progress";"backend,frontend,cloud,devops,database";"";"Svelte,Python,Docker,MySQL,OpenAPI,Zoom,GoogleAPI,Stripe,PostMan,DockerRegistry,DockerCompose,JQuery,TDD,Keycloak,Auth2,SSL,Vercel"
 "Frullino";"What to cook with your fridge leftover? I create different versions of the same mobile app.";"l";"in_progress";"backend,frontend,devops,database";"";"OpenAPI,Xcode,Android,PhoneGap,Ionic,PWA,PHP,Python,MongoDB,MySQL,AngularJS,JQuery,TDD,Auth2,SSL"
 Bus4All;Mobile app to monitor where is the envibus and give alarm on strike.;m;"almost_done";"backend,frontend,database";"";OpenAPI,PhoneGap,Selenium,Python,JQuery,GoogleAPI
 RNote;Script to generate release note from Git/Hg logs;s;done;devops;https://github.com/enzomar/rnote;Python
