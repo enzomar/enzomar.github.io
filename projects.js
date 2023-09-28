@@ -257,6 +257,21 @@ var projects ={
                 "PHP",
                 "SonarQube"
             ]
+        },
+        {
+            "title": "csv2bars",
+            "description": "Visualize your CSV as multiple Bar graph",
+            "size": "S",
+            "category": [
+                "frontend"
+            ],
+            "link": "https://csv2bars-1-l5073199.deta.app/",
+            "techno": [
+                "html",
+                "Deta",
+                "csv",
+                "charts.js"
+            ]
         }
     ],
     "almost_done": [
