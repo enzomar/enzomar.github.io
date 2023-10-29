@@ -96,6 +96,21 @@ var projects ={
                 "Auth2",
                 "SSL"
             ]
+        },
+        {
+            "title": "csv2bars",
+            "description": "Playgroung for generative AI. UI made in Python",
+            "size": "S",
+            "category": [
+                "frontend",
+                "backend"
+            ],
+            "link": "https://github.com/enzomar/genAI",
+            "techno": [
+                "Python",
+                "Huggingface LLM",
+                "Tkinter"
+            ]
         }
     ],
     "done": [
