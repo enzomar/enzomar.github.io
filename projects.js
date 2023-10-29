@@ -98,7 +98,7 @@ var projects ={
             ]
         },
         {
-            "title": "csv2bars",
+            "title": "genAI",
             "description": "Playgroung for generative AI. UI made in Python",
             "size": "S",
             "category": [

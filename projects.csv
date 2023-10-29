@@ -19,4 +19,4 @@ Bus4All;Mobile app to monitor where is the envibus and give alarm on strike.;m;"
 RNote;Script to generate release note from Git/Hg logs;s;done;devops;https://github.com/enzomar/rnote;Python
 Sonar;Sample project to run locally SonarQube;s;done;devops;https://github.com/enzomar/sonar;PHP,SonarQube
 csv2bars;Visualize your CSV as multiple Bar graph;s;done;frontend;https://csv2bars-1-l5073199.deta.app/;html,Deta,csv,charts.js
-csv2bars;Playgroung for generative AI. UI made in Python;s;in_progress;frontend,backend;https://github.com/enzomar/genAI;Python,Huggingface LLM,Tkinter
+genAI;Playgroung for generative AI. UI made in Python;s;in_progress;frontend,backend;https://github.com/enzomar/genAI;Python,Huggingface LLM,Tkinter
