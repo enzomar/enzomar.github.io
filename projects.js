@@ -99,7 +99,7 @@ var projects ={
         },
         {
             "title": "genAI",
-            "description": "Playgroung for generative AI. UI made in Python",
+            "description": "Playground for generative AI. UI made in Python",
             "size": "S",
             "category": [
                 "frontend",
@@ -110,6 +110,22 @@ var projects ={
                 "Python",
                 "Huggingface LLM",
                 "Tkinter"
+            ]
+        },
+        {
+            "title": "Fodmap4all",
+            "description": "First italian mobile app for fodmap diet.",
+            "size": "S",
+            "category": [
+                "frontend",
+                "backend"
+            ],
+            "link": "https://www.fodmap4all.online/genAI",
+            "techno": [
+                "ReactNative",
+                "firebase",
+                "sentry",
+                "adMob"
             ]
         }
     ],
