@@ -20,4 +20,4 @@ RNote;Script to generate release note from Git/Hg logs;s;done;devops;https://git
 Sonar;Sample project to run locally SonarQube;s;done;devops;https://github.com/enzomar/sonar;PHP,SonarQube
 csv2bars;Visualize your CSV as multiple Bar graph;s;done;frontend;https://csv2bars-1-l5073199.deta.app/;html,Deta,csv,charts.js
 genAI;Playground for generative AI. UI made in Python;s;in_progress;frontend,backend;https://github.com/enzomar/genAI;Python,Huggingface LLM,Tkinter
-Fodmap4all;First italian mobile app for fodmap diet. ;xl;"done";frontend,backend;https://www.fodmap4all.online/genAI;ReactNative,firebase,sentry,adMob
+Fodmap4all;First italian mobile app for fodmap diet. ;xl;"done";frontend,backend;https://www.fodmap4all.online;ReactNative,firebase,sentry,adMob

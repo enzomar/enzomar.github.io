@@ -296,7 +296,7 @@ var projects ={
                 "frontend",
                 "backend"
             ],
-            "link": "https://www.fodmap4all.online/genAI",
+            "link": "https://www.fodmap4all.online",
             "techno": [
                 "ReactNative",
                 "firebase",
