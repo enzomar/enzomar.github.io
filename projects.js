@@ -111,22 +111,6 @@ var projects ={
                 "Huggingface LLM",
                 "Tkinter"
             ]
-        },
-        {
-            "title": "Fodmap4all",
-            "description": "First italian mobile app for fodmap diet.",
-            "size": "S",
-            "category": [
-                "frontend",
-                "backend"
-            ],
-            "link": "https://www.fodmap4all.online/genAI",
-            "techno": [
-                "ReactNative",
-                "firebase",
-                "sentry",
-                "adMob"
-            ]
         }
     ],
     "done": [
@@ -302,6 +286,22 @@ var projects ={
                 "Deta",
                 "csv",
                 "charts.js"
+            ]
+        },
+        {
+            "title": "Fodmap4all",
+            "description": "First italian mobile app for fodmap diet.",
+            "size": "XL",
+            "category": [
+                "frontend",
+                "backend"
+            ],
+            "link": "https://www.fodmap4all.online/genAI",
+            "techno": [
+                "ReactNative",
+                "firebase",
+                "sentry",
+                "adMob"
             ]
         }
     ],
